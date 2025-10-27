@@ -21,7 +21,7 @@ class InnerButton {
     button.addActionListener(new ButtonListener());
 
     frame.getContentPane().add(
-            BorderLayout.SOUTH, button);
+            BorderLayout.NORTH, button);
     frame.setSize(200, 100);
     frame.setVisible(true);
   }
