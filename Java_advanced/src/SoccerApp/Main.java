@@ -75,7 +75,7 @@ public class Main {
      * "TeamA 3, TeamB 1"
      */
     private static boolean isValidMatchLine(String line) {
-        if (line == null || line.trim().isEmpty()) return false;
+        if (line == null || line.trim().isEmpty()) return false; //Not empty
         if (!line.contains(",")) return false; // Must contain comma
         return line.matches(".*\\d+.*\\,.*\\d+.*"); // Must contain 2 scores
     }
